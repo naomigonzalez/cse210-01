@@ -49,6 +49,7 @@ def next_player(current):
         return "x"
     elif current == "x":
         return "o"
-
-if __name__ == "__main__":
+# sirve para validar que el módulo actual es el principal que se esta corriendo
+# se hacen pruebas de código  
+if __name__ == "__main__": # __name__ palabra reservada de python 
     main()
